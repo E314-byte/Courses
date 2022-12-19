@@ -1,0 +1,84 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #F4F3E4;
+}
+
+.center {
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.welcome {}
+
+.item {
+    margin: 15px 0;
+    font-size: 22px;
+}
+
+.hr {
+    max-height: 2px;
+    max-width: 300px;
+    margin: 0%;
+    background-color: #000;
+}
+
+.text {
+    margin-top: 9px;
+    font-size: 16px;
+}
+
+.tovar {
+    position: relative;
+}
+
+.frames {
+    z-index: 1;
+    width: 271px;
+    height: 640px;
+    margin: 0 auto;
+    border: .5px solid #000;
+}
+
+.table {
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    grid-auto-flow: row dense;
+    flex-grow: inherit;
+    /* gap: 7px;
+    grid-template-areas: "a a a" "b c c" "b c c";
+    grid-row-end: auto;
+    grid-column-end: auto; */
+}
+
+.cards {
+    position: absolute;
+    top: 20px;
+    max-width: 192px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+img {
+    border-radius: 2px;
+}
+
+.title {
+    position: absolute;
+    width: 91.5%;
+    background: rgba(29, 29, 29, 0.7);
+    border-radius: 2px;
+    padding: 10px 8px;
+    color: white;
+}

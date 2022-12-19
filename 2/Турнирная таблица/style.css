@@ -11,6 +11,7 @@ body {
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
+    /* gap: 100px */
 }
 
 .round {
@@ -22,7 +23,8 @@ body {
     justify-content: center;
 }
 
-.round-one {}
+
+/* .round-one {}
 
 .round-two {
     padding-top: calc(100%/3);
@@ -30,12 +32,16 @@ body {
 
 .round-three {
     padding-top: calc(100%/2);
-}
+} */
 
 .round-left {}
 
 .room {
     font-size: 30px;
+}
+
+.item_11 {
+    justify-content: flex-start;
 }
 
 .match {
@@ -45,6 +51,28 @@ body {
     margin-left: 0%;
     background-color: #aaa;
 }
+
+
+/* .match::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 20px;
+    border-right: 3px solid rgb(112, 58, 58);
+}
+
+.match:not(:last-child):not(:first-child):after {
+    width: 100%;
+    border-top: 3px solid rgb(128, 105, 105);
+}
+
+.match:not(:only-child):first-child:before {
+    right: 0;
+    left: auto;
+    border-left: 3px solid rgb(177, 68, 68);
+    border-right: none;
+} */
 
 .team {
     font-size: 20px;
