@@ -1,0 +1,128 @@
+* {
+    font-family: 'Montserrat';
+    margin: auto;
+}
+
+
+/* s {
+    min-width: 100%;
+} */
+
+.v {
+    margin-bottom: 30px;
+}
+
+.center1 {
+    margin: 0 auto;
+}
+
+.qa {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #242424;
+}
+
+.Q {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.yel {
+    top: -10px;
+    text-decoration: underline #F4D26D 11px;
+    /* text-decoration-thickness: 11px; */
+}
+
+.tacenter {
+    text-align: center;
+}
+
+
+/* .yel::before {
+    content: '';
+    position: absolute;
+    width: 221px;
+    height: 11px;
+    left: 948px;
+    top: 40px;
+    background: #F4D26D;
+    z-index: 2;
+} */
+
+.img {
+    width: 753px;
+    height: 550px;
+    background-image: url('../images/Rectangle 57.png');
+    position: relative;
+    padding-bottom: 50px;
+    border-radius: 6px;
+}
+
+.backdrop-filter {
+    width: 753px;
+    height: 247px;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(20px);
+    border-radius: 6px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.border-bottom {
+    display: inline-block;
+    border-bottom: 1px dashed #334483;
+    color: #FFAB00;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.free {
+    color: #808080;
+}
+
+.px40 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.px40fz600 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.px25 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.px20 {
+    font-size: 20px;
+}
+
+.px35 {
+    font-size: 35px;
+}
+
+.p30 {
+    padding: 30px 0;
+}
+
+.pl100 {
+    padding-left: 113px;
+    padding: 50px;
+}
+
+.hr {
+    width: 619px;
+    height: 0px;
+    border: 1px solid rgba(133, 143, 164, 0.2);
+}
+
+.p {
+    padding: 50px;
+}
