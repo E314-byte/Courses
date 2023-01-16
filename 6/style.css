@@ -1,12 +1,8 @@
 * {
     font-family: 'Montserrat';
-    margin: auto;
+    /* margin: auto; */
+    /* width: 100%; */
 }
-
-
-/* s {
-    min-width: 100%;
-} */
 
 .v {
     margin-bottom: 30px;
@@ -28,18 +24,18 @@
     font-size: 15px;
 }
 
-.yel {
+
+/* .yel {
     top: -10px;
     text-decoration: underline #F4D26D 11px;
-    /* text-decoration-thickness: 11px; */
-}
+    text-decoration-skip-ink: none;
+} */
 
 .tacenter {
     text-align: center;
 }
 
-
-/* .yel::before {
+.yel::before {
     content: '';
     position: absolute;
     width: 221px;
@@ -47,8 +43,7 @@
     left: 948px;
     top: 40px;
     background: #F4D26D;
-    z-index: 2;
-} */
+}
 
 .img {
     width: 753px;
@@ -79,9 +74,12 @@
 
 .flex {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.free {
+.gray {
     color: #808080;
 }
 
@@ -125,4 +123,38 @@
 
 .p {
     padding: 50px;
+}
+
+.border {
+    display: inherit;
+    border-color: transparent;
+    /* padding: 8px 8px 8px 34px; */
+    padding: 8px;
+    border: 2px solid #808080;
+    border-radius: 5px;
+    /* gap: 10px; */
+}
+
+.w550px {
+    width: 550px;
+    gap: 10px;
+}
+
+.mr20px {
+    margin-right: 20px;
+}
+
+.one {
+    border-color: #FFFFFF !important;
+    border: 2px solid red !important;
+}
+
+.r::before {
+    display: inline-block;
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    background-color: #F53B49;
+    border-radius: 50%;
+    margin-right: 5px;
 }
