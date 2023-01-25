@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Uni Neue';
+    max-width: 1530px;
+}
+
+.header {
+    display: flex;
+    margin-top: 145px;
+    /* margin: auto 0; */
+}
+
+.messenger {
+    font-size: 30px;
+    color: #737C76;
+}
+
+.item {
+    font-size: 80px;
+    line-height: 130%;
+    color: white;
+}
