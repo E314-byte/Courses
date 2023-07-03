@@ -2,14 +2,20 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    font-family: 'Uni Neue';
-    max-width: 1530px;
+    color: white;
+    font-family: 'Roboto';
+    margin: 0 auto;
 }
 
 .header {
     display: flex;
-    margin-top: 145px;
-    /* margin: auto 0; */
+    justify-content: space-around;
+    margin: 140px 0 100px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
 }
 
 .messenger {
@@ -20,5 +26,40 @@ body {
 .item {
     font-size: 80px;
     line-height: 130%;
-    color: white;
+    max-width: 880px;
+    /* max-width: 1500px; */
+}
+
+.Q_A {
+    max-width: 430px;
+    margin: 30px 0;
+}
+
+.qq {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.WhatsApp {
+    display: inline;
+    font-size: 30px;
+    padding: 30px;
+    border-bottom: #737C76 solid 1px;
+    /* text-transform: uppercase; */
+    margin-bottom: 200px;
+}
+
+.WhatsApp::after {
+    content: url("images/wa.png");
+    margin-left: 30px;
+}
+
+.phones {
+    left: -20px;
+}
+
+.phone {
+    max-width: 200px;
+    max-height: auto;
 }
